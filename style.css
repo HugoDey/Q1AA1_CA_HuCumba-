@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.links {
+    display: flex;
+    margin-left: auto; 
+}
+
+.links a {
+    text-decoration: none;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 6px;
+    border: 2px solid rgb(48, 39, 135);
+    color: rgb(48, 39, 135);
+    transition: all 0.3s ease;
+}
+
+.links a:hover {
+    background-color: rgb(48, 39, 135);
+    color: white;
+}
+
+.logo img {
+    max-width: 100px;
+    border-radius: 50%; /* Make the logo rounded */
+}
+
+.Welcome {
+    border: 5px solid black;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(40, 143, 146);
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover;
+    margin: 10px; 
+}
